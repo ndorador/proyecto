@@ -1,0 +1,8 @@
+.banner {
+  background-image: url('../assets/img/banner2.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Color del texto en el banner */
+  padding: 100px 0; /* Espaciado interno superior e inferior del banner */
+  text-align: center;
+}
