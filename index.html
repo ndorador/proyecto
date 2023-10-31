@@ -11,26 +11,82 @@
 <body>
     <body>
         <header>
-            <div class="logo">
-                <img src="assets/img/4.png" alt="Logo">
-            </div>
+            <img src="assets/img/4.png" height="150" alt="dorb">
             <nav>
                 <ul class="menu">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Acerca de</a></li>
-                    <li class="submenu">
+                    <li class="sub-menu">
                         <a href="#">Servicios</a>
-                        <ul class="sub-menu">
-                            <li><a href="#">Servicio 1</a></li>
-                            <li><a href="#">Servicio 2</a></li>
-                            <li><a href="#">Servicio 3</a></li>
-                            <li><a href="#">Servicio 4</a></li>
+                        <ul class="sub-menu-items">
+                            <li><a href="#">Soporte</a></li>
+                            <li><a href="#">Web</a></li>
+                            <li><a href="#">Software</a></li>
+                            <li><a href="#">Protesis</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
         </header>
+
+        <main><!--aquí va la sección principal del contenido-->
+
+           <section>
+            <div class="banner-container">
+                <div class="banner" id="banner1">
+                    <img src="assets/img/banner2.png" alt="Banner 1">
+                </div>
+                
+                
+            </div>
+           
+           </section>
+                
+               
+              
+       <!-- Espacio y la siguiente sección -->
+       <div class="my-5"></div>
+    
+    
+            <section>
+                <h2 class="text-center">Contacto</h2>
+                <div class="my-4"></div>
+                <div class="container">
+                    
+                    <div class="contact-form">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="correo" name="correo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+                 <!-- Espacio y la siguiente sección -->
+                 <div class="my-5"></div>
+       
+    
+        <footer>
+            <p>&copy; Copyright 2023,Todos los Derechos reservados.</p><!--tambien van las redes sociales-->
+        </footer>
+    
+                
+       
+    
+    
     
 </body>
 </html>

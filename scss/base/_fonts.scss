@@ -2,3 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 
 // font-family: 'Open Sans', sans-serif;
+/* _fonts.scss */
+
+// Definir un tamaño de fuente personalizado para los elementos del menú
+$menu-font-size: 20px; // Ajusta el tamaño según tus preferencias
+
+// Aplicar el tamaño de fuente a los elementos del menú
+ul.menu li a {
+    font-size: $menu-font-size;
+}
