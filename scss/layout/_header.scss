@@ -16,6 +16,9 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 nav ul li{
     display: inline-block;
@@ -37,7 +40,7 @@ li a.active, li a:hover{
 }
 .checkbtn{
     font-size: 30px;
-    color: #4c4f52;
+    color: #545a5e;
     float: right;
     line-height: 80px;
     margin-right: 40px;
