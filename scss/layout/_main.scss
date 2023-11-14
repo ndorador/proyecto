@@ -1,6 +1,10 @@
-section{
-    background: url(/assets/img/banner2.png) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 80px);
+.btn-darkorange {
+    color: #fff;
+    background-color: darkorange;
+    border-color: darkorange;
+}
+.btn-darkorange:hover {
+    color: #fff;
+    background-color: #a35800; /* Cambia este color si necesitas ajustar el tono */
+    border-color: #a35800; /* Cambia este color si necesitas ajustar el tono */
 }
