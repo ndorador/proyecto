@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -6,16 +7,25 @@
   box-sizing: border-box;
 }
 
-.btn-darkorange {
-  color: #fff;
-  background-color: darkorange;
-  border-color: darkorange;
+.carousel-control-prev,
+.carousel-control-next {
+  font-size: 2rem; /* Tamaño de la flecha */
+  color: black; /* Color de la flecha */
+  background-color: transparent !important; /* Fondo transparente */
+  border: none; /* Sin borde */
+  outline: none; /* Sin contorno al hacer clic */
+  opacity: 0.7; /* Opacidad */
 }
 
-.btn-darkorange:hover {
-  color: #fff;
-  background-color: #a35800; /* Cambia este color si necesitas ajustar el tono */
-  border-color: #a35800; /* Cambia este color si necesitas ajustar el tono */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3e%3cpath d='M2.6 0l-1.5 1.5 2.9 2.9-2.9 2.9 1.5 1.5 4.5-4.5-4.5-4.5z'/%3e%3c/svg%3e"); /* Ícono de la flecha */
+}
+
+/* Estilos para resaltar las flechas al pasar el ratón */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
 }
 
 @media (max-width: 991px) {
